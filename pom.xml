@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <name>mailbox</name>
-    <description>Mailbox is a simple actor library implemented on top of virtual threads.</description>
+    <description>Mailbox is a simple actor library implemented on top of Java Virtual Threads.</description>
     <inceptionYear>2024</inceptionYear>
 
     <licenses>
