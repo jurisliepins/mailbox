@@ -13,11 +13,11 @@ public final class Awaiter<T> implements MailboxReceiver {
     @Override
     public NextState receive(final Mailbox mailbox) {
         switch (mailbox) {
-            case Mailbox.Success success -> {
-                result = (T) success.message();
+            case Mailbox.Success m -> {
+                result = (T) m.message();
                 latch.countDown();
             }
-            case Mailbox.Failure failure -> {
+            case Mailbox.Failure m -> {
                 result = null;
                 latch.countDown();
             }
