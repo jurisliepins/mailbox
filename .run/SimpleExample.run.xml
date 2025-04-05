@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SimpleExample" type="Application" factoryName="Application" folderName="Examples">
+    <option name="MAIN_CLASS_NAME" value="com.github.jurisliepins.mailbox.examples.SimpleExample" />
+    <module name="mailbox" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
